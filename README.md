@@ -2,19 +2,18 @@
 
 ## Installation:
 
-Clone the repo Bundle install Gemfile and dependencies
+Clone the repo
+Ruby version 2.4.0
+```
+$ rvm install ruby 2.4.0
+$ rvm use 2.4.0
+```
+Bundle install Gemfile and dependencies
 
 ```
 $ gem install bundler
 $ bundle
 $ bundle update
-```
-
-Ruby version 2.4.0
-
-```
-$ rvm install ruby 2.4.0
-$ rvm use 2.4.0
 ```
 
 ## Creating the database
@@ -38,7 +37,7 @@ $ rackup
 visit: http://localhost:9292/
 ```
 
-## Task
+## User Stories
 
 ```
 STRAIGHT UP
@@ -91,17 +90,3 @@ I want to receive an email if I am tagged in a Peep
 ## ![Peeps page](https://i.imgur.com/IQomR8b.png)
 
 ![Sign_out page](https://i.imgur.com/Huv0Edj.png)
-
-## Bonus
-
---------------------------------------------------------------------------------
-
-If you have time you can implement the following:
-
-- In order to start a conversation as a maker I want to reply to a peep from another maker.
-
-And/Or:
-
-- Work on the css to make it look good (we all like beautiful things).
-
-Good luck and let the chitter begin!

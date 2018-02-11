@@ -16,6 +16,7 @@ class User
 
   validates_confirmation_of :password
   validates_format_of :email, :as => :email_address
+  validates_length_of :password, :min => 6
 
   has n, :peep
 
